@@ -1,0 +1,9 @@
+insert into bookstore values(1, 'Learn SQL', 'John Smith', 400, 10),(2, 'Mastering Python', 'Jane Doe', 600, 5),(3, 'HTML & CSS Basics', 'Alan Webb', 300, 8);
+update bookstore
+set price=price+50,stock=12
+where stock_id=1;
+update bookstore
+set stock=stock-2
+where price>500;
+delete from bookstore
+where book_id=3;
